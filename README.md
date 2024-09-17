@@ -83,20 +83,26 @@ Run the program and use the menu to manage videos in the inventory.
 
 ---
 
-## 6. Student Management System (Packages and Exceptions)
-
-**File Name:** `StudentManagementSystem.java` (Assumed for example)
+## 6. Student Management System (Functionalities)
 
 **Description:** 
-This program demonstrates a student management system using custom packages and exception handling. The program is divided into different packages such as `service` and `bean` to manage student information and handle exceptions effectively.
+This program manages student data with exception handling and reporting capabilities.
 
-**Key Features:**
-- Utilizes packages for better code organization.
-- Implements exception handling to manage errors related to student operations.
+**Functionalities:**
 
-**Usage:**
-Follow the package structure and exception handling techniques demonstrated in the code to manage student information effectively.
+1. **Student Management:**
+   - Initialize and manage student details such as name, marks, and grade.
 
----
+2. **Exception Handling:**
+   - **NullMarksArrayException:** Handles cases where the marks array is null.
+   - **NullStudentObjectException:** Handles cases where the student object is null.
+   - **NullNameException:** Handles cases where the student name is null.
 
-Feel free to explore each program and modify or extend the functionalities as needed. If you have any questions or need further assistance, don't hesitate to reach out.
+3. **Student Report Generation:**
+   - **Validate Data:** Checks for validity and throws exceptions for null values.
+   - **Calculate Grades:** Determines grades based on the sum of marks.
+
+4. **Data Analysis:**
+   - **Count Null Values:** Counts students with null marks arrays, null names, or null objects.
+
+This system ensures accurate student data management and provides essential reports.
